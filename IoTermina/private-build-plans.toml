@@ -28,17 +28,18 @@ exportGlyphNames = false
     a = "double-storey-toothless-rounded"
     b = "toothless-rounded-serifless"
     d = "toothless-rounded-serifless"
+    e = "rounded"
     g = "single-storey-flat-hook-earless-rounded"
     i = "serifed"
     j = "flat-hook-serifed"
     k = "symmetric-connected-serifless"
-    m = "earless-rounded-double-arch-serifless"
+    m = "earless-rounded-double-arch-short-leg-serifless"
     n = "earless-rounded-straight-serifless"
     p = "earless-rounded-serifless"
     q = "earless-rounded-straight-serifless"
     r = "compact-serifless"
     t = "flat-hook-short-neck"
-    w = "rounded-vertical-sides-flat-top-serifless"
+    w = "rounded-vertical-sides-serifless"
     y = "cursive-flat-hook-serifless"
     z = "straight-serifless"
     tittle = "round"
@@ -77,13 +78,13 @@ exportGlyphNames = false
     j = "flat-hook-serifed"
     k = "symmetric-connected-serifless"
     l = "serifed-flat-tailed"
-    m = "earless-corner-double-arch-serifless"
+    m = "earless-corner-double-arch-short-leg-serifless"
     n = "earless-corner-straight-serifless"
     p = "earless-corner-serifless"
     q = "earless-corner-straight-serifless"
     r = "compact-serifless"
     t = "flat-hook"
-    w = "rounded-vertical-sides-flat-top-serifless"
+    w = "rounded-vertical-sides-serifless"
     y = "cursive-serifless"
     tittle = "round"
     diacritic-dot = "round"
@@ -104,20 +105,25 @@ shape = 400
 menu = 400
 css = 400
 
-[buildPlans.IoTermina.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
+[buildPlans.IoTermina.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
-[buildPlans.IoTermina.weights.SemiBold]
-shape = 600
-menu = 600
-css = 600
+[buildPlans.IoTermina.weights.Thin]
+shape = 100
+menu = 100
+css = 100
 
-[buildPlans.IoTermina.weights.ExtraBold]
-shape = 800
-menu = 800
-css = 800
+[buildPlans.IoTermina.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.IoTermina.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
 
 [buildPlans.IoTermina.widths.Normal]
 shape = 600
