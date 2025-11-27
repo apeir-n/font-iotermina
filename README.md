@@ -1,5 +1,7 @@
 # Io Termina
 
+![iotermina_linux](ioterminamindless.png)
+
 _Io_
 
 "The innermost and second-smallest of the four Galilean moons of Jupiter."
