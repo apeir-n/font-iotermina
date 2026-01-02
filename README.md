@@ -3,13 +3,15 @@
 ![iotermina](assets/iotermina.png)
 > Io Termina on macOS
 
+---
+
 _Io_
 
-"The innermost and second-smallest of the four Galilean moons of Jupiter."
+> "The innermost and second-smallest of the four Galilean moons of Jupiter."
 
 _Termina_
 
-"A parallel land to Hyrule that serves as the setting for Majora's Mask."
+> "A parallel land to Hyrule that serves as the setting for Majora's Mask."
 
 ---
 
@@ -43,6 +45,23 @@ The Mind variant is more fluttery and elvish like Zelda. The glyphs have longer 
 
 The Mindless variant is the same as the original, but with shortened middle lines on `m`s and `w`s.
 I prefer using this one on lower resolution screens.
+
+---
+
+### Customizing
+
+If you want to use one of these Io Termina fonts as a base for further customization, you can do that by:
+1. copying the contents of the `private-build-plans.toml` file in the desired font's subdirectory of this repo
+2. go to the [Iosevka web customizer](https://typeof.net/Iosevka/customizer)
+3. click `Import Configuration`
+4. paste the contents of the `private-build-plans.toml` into it
+    - you may need to omit the configuration under the `[buildPlans.IoTermina.metricOverride]` table, and add it back in after the web customizer generates your new config
+5. use the web interface to make our changes
+
+After you configure it with the web UI, the new configuration will be generated at the bottom of the page, and you can copy the contents and put it in your own toml config file.
+
+There are several other things you will need to do to compile the fonts, but that is all outlined in [Iosevka's documentation.](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) It's not too difficult, though it can be a bit CPU intensive.
+> literally the only time I've ever heard my m4 mac's fan come on was while compiling these fonts lol
 
 ---
 
