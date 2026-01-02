@@ -59,15 +59,15 @@ If you want to use one of these Io Termina fonts as a base for further customiza
     - I keep that metric override table at the bottom of the files
 5. use the web interface to make your changes
 
-After you configure it with the web UI, the new configuration will be generated at the bottom of the page, and you can copy the contents and put it in your own `private-build-plans.toml` config file. Then compile the new font with the `npm` command given below the newly generated configuration on the web UI page.
+After you configure it with the web UI, the new configuration will be generated at the bottom of the page, and you can copy the contents and put it in your own `private-build-plans.toml` config file. Then compile the new font with the `npm` command given below the newly generated configuration on the web page.
 
 >[!note]
->There are several other things you will need to do to compile the fonts, but that is all outlined in [Iosevka's custom building documentation.](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) It's not too difficult, though it can be a bit CPU intensive. (literally the only time I've ever heard my m4 mac's fan come on was while compiling these fonts lol)
+>There are a couple other things you will need to compile the fonts, but that is all outlined in [Iosevka's custom building documentation.](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) It's not too difficult, though it can be a bit CPU intensive. (literally the only time I've ever heard my m4 mac's fan come on was while compiling these fonts lol)
 
 ---
 
 ### License
 
-This font is a personal modification of the [Iosevka typeface](https://github.com/be5invis/Iosevka) by Belleve Invis, published under the SIL Open Font License 1.1 (see LICENSE.md)
+This font is a personal modification of the [Iosevka typeface](https://github.com/be5invis/Iosevka) by Belleve Invis, published under the SIL Open Font License 1.1 (see [LICENSE.md](LICENSE.md))
 
 Modified by B. R. Shellito, 2025
