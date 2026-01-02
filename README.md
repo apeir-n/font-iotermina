@@ -56,12 +56,13 @@ If you want to use one of these Io Termina fonts as a base for further customiza
 3. click `Import Configuration`
 4. paste the contents of the `private-build-plans.toml` into it
     - you may need to omit the configuration under the `[buildPlans.IoTermina.metricOverride]` table, and add it back in after the web customizer generates your new config
-5. use the web interface to make our changes
+    - I keep that metric override table at the bottom of the files
+5. use the web interface to make your changes
 
-After you configure it with the web UI, the new configuration will be generated at the bottom of the page, and you can copy the contents and put it in your own toml config file.
+After you configure it with the web UI, the new configuration will be generated at the bottom of the page, and you can copy the contents and put it in your own `private-build-plans.toml` config file. Then compile the new font with the `npm` command given below the newly generated configuration on the web UI page.
 
-There are several other things you will need to do to compile the fonts, but that is all outlined in [Iosevka's documentation.](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) It's not too difficult, though it can be a bit CPU intensive.
-> literally the only time I've ever heard my m4 mac's fan come on was while compiling these fonts lol
+>[!note]
+>There are several other things you will need to do to compile the fonts, but that is all outlined in [Iosevka's custom building documentation.](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) It's not too difficult, though it can be a bit CPU intensive. (literally the only time I've ever heard my m4 mac's fan come on was while compiling these fonts lol)
 
 ---
 
